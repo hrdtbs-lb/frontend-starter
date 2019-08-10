@@ -1,3 +1,24 @@
 html, body{
-    margin: 0px
+    margin: 0px;
+    background-color: dodgerblue;
+    background-image: url(./DyU8IxuUYAAahgt.jpg);
+    background-size: 100px;
+    font-family:"Yu Gothic";
+    font-size:26px;
+}
+div{
+    border: 10px solid red;
+    border-style: groove;
+    color:rgb(255, 125,233);
+    cursor:pointer;
+    height:200px;
+    width:200px;
+    margin:50px;
+    padding:150px;
+    position: absolute ;
+    top: 10px;
+}
+p{
+    position: relative;
+    top:100px;
 }
