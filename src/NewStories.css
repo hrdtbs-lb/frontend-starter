@@ -1,0 +1,33 @@
+html, body{
+   width: 100%;
+   height: 100%;
+   font-size: 62.5%;
+   background: 0 0;
+   display: block;
+   
+}
+
+header{
+    background-color:#35b597; 
+}
+
+header li{
+    float: left;
+    font-size:17px;
+}
+header p{
+    float:left;
+    font-size:14px;
+}
+
+.home-concept{
+    background-color: aqua;
+}
+.home-concept-ttl{
+    font-size: 95.574px;
+    color:#b3d4fc;
+    font-weight: 400;
+}
+.concept{
+    font-size: 18px;
+}
