@@ -4,30 +4,125 @@ html, body{
    font-size: 62.5%;
    background: 0 0;
    display: block;
-   
+   list-style: none;
 }
 
-header{
-    background-color:#35b597; 
+.ttl {
+    background-color:#35b597;
+    color:white;
+    height: 120px;
+    width:100%;
+    margin-right:30px;     
 }
 
+header ul{
+    display:flex;
+    align-content: center;
+    position: relative;
+    margin-top: -.4em;
+    list-style: none;
+    float: right;
+    
+}
 header li{
-    float: left;
     font-size:17px;
+    padding: .1em .2em .15em 0;
+       
 }
 header p{
-    float:left;
-    font-size:14px;
+    font-size: 14px;
 }
-
 .home-concept{
-    background-color: aqua;
+    background-color:#35b597;
+    color:white;
 }
 .home-concept-ttl{
     font-size: 95.574px;
-    color:#b3d4fc;
+    font-family: "Hanken";
+    font-weight: bold;
+    color:white;
     font-weight: 400;
 }
 .concept{
     font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.e-mail1{
+    position: relative;
+    display: inline-block;
+    font-family: "Hanken";
+    cursor: pointer;
+    font-size: 1.4rem;
+    height: 2px;
+}
+.theme{
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 150px);
+    background-color: black;
+    color: white;
+}
+.concept1{
+    position: relative;
+    margin-bottom: 80px;
+    font-size: 60px;
+    font-family: "Hanken Sans";
+    font-weight: 400;
+}
+.label-is-active{
+    position: relative;
+    min-width: 150px;
+    padding-top: 5px;
+    padding-right: 30px;
+    font-size: 18px;
+    font-family: "Hanken Sans";
+    font-weight: 400;
+    letter-spacing: 0
+}
+.main-text-is-active{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Noto Sans";
+    float: right;
+    font-feature-settings: "palt";
+    line-height: 1;
+    letter-spacing: .045em;
+}
+.consept-eng{
+    font-size:16px;
+    position: relative;
+    margin-top: 35px;
+    font-family: "Hanken Sans";
+    font-weight: 400;
+    color:#676767;
+    letter-spacing: 0;
+    line-height: 1.5;
+}
+
+.home-project{
+    position: relative;
+    padding: 150px 0;
+    background: #f6f6f6;
+}
+.project{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0 50px;
+    width: 100%;
+}
+.project-list{
+    display: flex;
+    -webkit-box-pack: justify;
+    list-style: none;
+    justify-content: space-between;
+    z-index: 1;
+    text-align: -webkit-match-parent;
+}
+.cat{
+    font-size: 18px;
+    font-family: "Hanken Sans";
+    text-align: right;
 }
