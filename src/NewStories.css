@@ -7,13 +7,6 @@ html, body{
    list-style: none;
 }
 
-.ttl {
-    background-color:#35b597;
-    color:white;
-    height: 120px;
-    width:100%;
-    margin-right:30px;     
-}
 
 header ul{
     display:flex;
@@ -112,6 +105,7 @@ header p{
     position: relative;
     padding: 0 50px;
     width: 100%;
+    font-size:26px;
 }
 .project-list{
     display: flex;
@@ -125,4 +119,145 @@ header p{
     font-size: 18px;
     font-family: "Hanken Sans";
     text-align: right;
+}
+.year{
+    color: silver;
+    font-size: 28px;
+    font-family: "Hanken Sans";
+    font-weight: 400;
+    float: right;
+}
+.month{
+    color: silver;
+    font-size: 28px;
+    font-family: "Hanken Sans";
+    font-weight: 400;
+    
+}
+.project-title{
+    position: relative;
+    margin-top: 25px;
+    color: #111;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.65;
+    text-align: left;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.project-slider-slide{
+    cursor: pointer;
+}
+.home-discover{
+    background-color: white;
+}
+.black-is-active{
+    color: #222222;
+    font-size: 60px;
+    font-family: "Hankan Sans"
+}
+.gradiant-is-active{
+    display: inline-block;
+    color: #35b597;
+    background: -webkit-gradient(linear,left top,right top,from(#35b597),to(#00a0e9));
+    background: linear-gradient(90deg,#35b597,#00a0e9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:60px;
+}
+
+.discover-link-is-active{
+    border-bottom: 1px solid #e7e9e9;
+    display: block;
+    position: relative;
+    margin-bottom: -1px;
+    font-size: 2rem;
+    z-index: 0;
+    letter-spacing: .045em;
+    cursor: default;
+    float: right;
+    padding: 35px 25px 35px 55px;
+}
+.view-all-is-active{
+    display: inline-flex;
+    position: relative;
+    padding: 18px 20px;
+    color:black;
+    font-family: "Hankan Sans";
+    font-size: 17px;
+    border-bottom: 1px solid #35b597;
+}
+
+.home-company{
+    position: relative;
+    z-index: 0;
+}
+.ttl-is-active{
+    color:blck;
+    font-size:60px;
+    font-family: "Hankan Sans"
+}
+.label-description{
+    color:black;
+    font-family: "Hankan Sanas";
+    font-size:18px;
+}
+.main-txt-is-active{
+    color:black;
+    font-size:16px;
+}
+
+.view-all-is-active{
+    border-bottom: 1px solid #35b597;
+    font-size: 17px;
+    font-family: "Hankan Sans"
+}
+
+.home-contact{
+    position: relative;
+    z-index: 0;
+    background-color: #35b597;
+    color:white;
+}
+.label{
+    font-size: 18px;
+    font-family: "Hankan Sans";
+    color:white;
+}
+
+.link-js-e-mail{
+    font-family: "Hankan Sans";
+    font-size:36px;
+}
+.link{
+    color: white;
+    font-size: 14px;
+}
+
+.g-footer-is-active{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    padding: 66.5px 0;
+    background: #fff;
+}
+.footer-list{
+    color:black;
+    font-family: "Hankan Sans";
+    font-size:17px;
+}
+.copyright{
+    columns: #c0c0c0;
+    font-family: "Hankan Sans";
+    font-size:13px;
+    font-weight: 400;
+    letter-spacing: 0;
+    float:right;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
