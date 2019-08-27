@@ -4,7 +4,6 @@
   "editor.formatOnPaste": false,
   "files.autoSave": "off",
   "editor.formatOnSave": true,
-  "prettier.stylelintIntegration": true,
   "eslint.autoFixOnSave": true,
   "eslint.codeAction.showDocumentation": {
     "enable": true
