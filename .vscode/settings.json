@@ -4,9 +4,11 @@
   "editor.formatOnPaste": false,
   "files.autoSave": "off",
   "editor.formatOnSave": true,
-  "eslint.autoFixOnSave": true,
   "eslint.codeAction.showDocumentation": {
     "enable": true
   },
-  "eslint.validate": ["javascript"]
+  "eslint.validate": ["javascript"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
